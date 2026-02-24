@@ -40,7 +40,6 @@
                 <h3>Introduction</h3>
                 <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
                 <div>
-                <!-- RESPONSIVE IMAGES: ART DIRECTION -->
                 <!--Responsive Image for Art Direction
                     images/majorca-beach-square-s.jpg
                     images/majorca-beach-vertical-m.jpg
@@ -101,7 +100,6 @@
                 <h3>Testimonials</h3>
 
                 <section>
-                    <!-- RESPONSIVE IMAGES: RESOLUTION SWITCHING -->
                     <!--Responsive Image for resolution switching
                         images/miranda-blake-L.png
                         images/miranda-blake-S.png 404w
@@ -265,19 +263,19 @@
             
                 <div>
                     <label for="first">First Name<span>*</span></label>
-                    <input type="text" id="first" name="first" required>
+                    <input type="text" class="form-control" id="first" name="first" required>
                 </div>
                 <div>
                     <label for="last">Last Name<span>*</span></label>
-                    <input type="text" id="last" name="last" required>
+                    <input type="text" class="form-control" id="last" name="last" required>
                 </div>
                 <div>
                     <label for="email">Email<span>*</span></label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" class="form-control" id="email" name="email" required>
                 </div>
                 <div>
                     <label for="phone">Phone<span>*</span></label>
-                    <input type="tel" id="phone" name="phone" required>
+                    <input type="tel" class="form-control" id="phone" name="phone" required>
                 </div>
                 <fieldset id="preferred-contact">
                     <legend>Preferred Contact Method<span>*</span></legend>
@@ -296,7 +294,7 @@
                 </fieldset>
                 <fieldset id="destination">
                     <legend>Destination<span>*</span></legend>
-                    <select id="select-destination" required>
+                    <select id="select-destination" class="form-control" required>
                         <option value="">Choose</option>
                         <option value="Barcelona">Barcelona</option>
                         <option value="Granada">Granada</option>
@@ -311,7 +309,7 @@
                 </fieldset>
                 <fieldset id="travelTime">
                     <legend>Travel Time<span>*</span></legend>
-                    <select id="select-travel-time" required>
+                    <select id="select-travel-time" class="form-control" required>
                         <option value="">Choose</option>
                         <option value="Fall">Fall</option>
                         <option value="Winter">Winter</option>
@@ -320,11 +318,11 @@
                         <option value="Flexible">Flexible</option>
                     </select>
                 </fieldset>
-                <input>
+                <input type="submit" id="submit" value="Submit">
             
         </section>
         <section id="legal">
-            Legal
+            <h2>Legal</h2>
             <small>Copyright 2021 Wonderlust</small>
             <a href="#">Privacy Statement</a>
             <a href="#">Terms of Service</a>
